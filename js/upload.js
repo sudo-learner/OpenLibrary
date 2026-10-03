@@ -70,7 +70,7 @@ async function handleSubmit(event) {
     if (error) throw error;
 
     form.reset();
-    showMessage(msgBox, "Done! Your book is now in the library, in full HD.", "ok");
+    showMessage(msgBox, "Done! Your book is now in the library.", "ok");
   } catch (err) {
     showMessage(msgBox, "Upload failed: " + err.message, "err");
   }
