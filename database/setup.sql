@@ -1,5 +1,4 @@
 -- OpenLibrary database setup
--- Run this once in: Supabase Dashboard -> SQL Editor -> New query -> Run
 
 -- Table: book categories
 create table categories (
